@@ -1,0 +1,111 @@
+header {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: xx-large;
+	color: #4aaaa5;
+}
+
+p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #343b3f;
+}
+
+#logo {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	/* Visual */
+	background: #4aaaa5;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+	overflow: contain;
+	position: relative;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	border-top: #4aaaa5 10px solid;
+	margin-top: 15px;
+	left: 0;
+	background-color: #343b3f;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	color: #8ea1a1;
+}
+
+/* media query for nav background color change*/
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 500px) {
+	#profilePic {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+/* Index */
+#profilePic {
+	float: left;
+	width: 200px;
+	margin: 0 20px 10px 0;
+}
+
+body {
+	background: url(https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+/* Portfolio */
+card-body {
+	width: 100%;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
