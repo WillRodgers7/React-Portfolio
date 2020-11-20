@@ -3,16 +3,16 @@ import React from "react";
 
 function Contact() {
 	return (
-		
-< className="container">
+<div>
+    <div className="container">
 			<div className="card border-0 shadow my-5">
 				<div className="card-body p-5">
 					
                     
 					<header>Contact Me</header>
-					<hr />
-					<br />
-					<br />
+					<hr></hr>
+					<br></br>
+					<br></br>
 					<form className="block form-horizontal">
 						
 						<div className="form-group">
@@ -25,8 +25,8 @@ function Contact() {
 							/>
 						</div>
 		
-						<br />
-						<br />
+						<br></br>
+						<br></br>
 		
 						
 						<div className="form-group">
@@ -39,8 +39,8 @@ function Contact() {
 							/>
 						</div>
 		
-						<br />
-						<br />
+						<br></br>
+						<br></br>
 		
 						
 						<div className="form-group">
@@ -52,8 +52,8 @@ function Contact() {
 							></textarea>
 						</div>
 		
-						<br />
-						<br />
+						<br></br>
+						<br></br>
 		
 						
 						<div className="btn-group-toggle" data-toggle="buttons">
@@ -68,16 +68,17 @@ function Contact() {
 						</div>
 					</form>
 				</div>
-					<div style="height: 50;"></div>
+                
 				</div>
-			</>
-		
+			</div>
+
+
 
 		
 		<footer className="footer">
 			&copy;copywright
 		</footer>
-
+</div>
 );
 }
 

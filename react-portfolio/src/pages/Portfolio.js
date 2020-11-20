@@ -12,7 +12,7 @@ function Portfolio() {
 					<br />
 					<hr />
 					<br />
-					<!-- Start -->
+					{/* <!-- Start --> */}
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-12 col-md-12 col-lg-4">
@@ -323,7 +323,7 @@ function Portfolio() {
 			</div>
 		</div>
 
-		<!-- Footer -->
+		// <!-- Footer -->
 		<footer className="footer">
 			&copy;copywright
 		</footer>
