@@ -7,6 +7,7 @@ header {
 p {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: #343b3f;
+	padding-left: 30px;
 }
 
 #logo {
@@ -19,8 +20,8 @@ p {
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 	overflow: contain;
 	position: relative;
 }
@@ -70,42 +71,144 @@ card-body {
 	width: 100%;
 }
 
-
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Portfolio */
+
+/* Portfolio text */
+.block1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Card One */
+.Portbtn1 {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+	border-left-width: 100%;
+	border-right-width: 100%;
+	border-left-width: 100%;
+	border-left-width: 75px;
+	margin-left: 0px;
+	border-right-width: 75px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.cardone {
+	width: 100%;
+	height: 100%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+/* Card One */
+.Portbtn2 {
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+	border-left-width: 100%;
+	border-right-width: 100%;
+	border-left-width: 100%;
+	border-left-width: 75px;
+	margin-left: 0px;
+	border-right-width: 75px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+.cardtwo {
+	width: 100%;
+	height: 100%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+/* Profile pic */
+.will {
+	width: 240px;
+	height: 300px;
+}
+/* app 1 */
+.workDay {
+	width: 240px;
+	height: 300px;
+}
+
+/* app 2 */
+.codeQuiz {
+	width: 240px;
+	height: 300px;
+}
+
+/* app 3*/
+.codeRefractor {
+	width: 240px;
+	height: 300px;
+}
+
+/* app 4*/
+.passwordGenerator {
+	width: 240px;
+	height: 300px;
+}
+
+/* app 5*/
+.ultimatePubcrawl {
+	width: 240px;
+	height: 300px;
+}
+/* app 6*/
+.readMe {
+	width: 240px;
+	height: 300px;
+}
+/* app 7*/
+.noteTaker {
+	width: 240px;
+	height: 300px;
+}
+/* app 8*/
+.mindful {
+	width: 240px;
+	height: 300px;
+}
+/* app 9*/
+.budget {
+	width: 240px;
+	height: 300px;
 }

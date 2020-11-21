@@ -1,4 +1,5 @@
 import React from "react";
+import will from "../images/Willy.jpeg";
 
 
 function About() {
@@ -12,13 +13,9 @@ function About() {
 			<br></br>
 			<hr></hr>
 			<br></br>
-			<div className="block">
-				<img
-					src="../Responsive-Portfolio/assets/pics/Will.jpeg"
-					width="150px"
-					height="250px"
-					alt="A handsome man"
-					id="profilePic"></img>
+			<div className="block1">
+				<img className='will'src={will}  alt="A handsome man"/>
+
 				
 				<p>
 					Hello, my name is William Rodgers, I am 28 years old and currently
@@ -35,11 +32,12 @@ function About() {
 					<br></br>
 					<a href="https://www.linkedin.com/in/william-rodgers-a548491ba/"> LinkedIn</a>
 					<br></br>
+					<a href="https://github.com/WillRodgers7"> GitHub</a>
+					<br></br>
 					<br></br>
 					<br></br>
 					<br></br>
 				</p>
-				{/* <div  style="height: 100;"></div> */}
 			</div>
 		</div>
 	</div>

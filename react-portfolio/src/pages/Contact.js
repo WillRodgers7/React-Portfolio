@@ -16,12 +16,12 @@ function Contact() {
 					<form className="block form-horizontal">
 						
 						<div className="form-group">
-							<label for="exampleFormControlInput1">Name</label>
+							<label for="exampleFormControlInput1">Email</label>
 							<input
 								type="email"
 								className="form-control"
 								id="exampleFormControlInput1"
-								placeholder="Your name here"
+								placeholder="yourEmail@example.com"
 							/>
 						</div>
 		
@@ -30,12 +30,12 @@ function Contact() {
 		
 						
 						<div className="form-group">
-							<label for="exampleFormControlInput1">Email</label>
+							<label for="exampleFormControlInput1">Subject</label>
 							<input
 								type="email"
 								className="form-control"
 								id="exampleFormControlInput1"
-								placeholder="name@example.com"
+								placeholder="Subject Here"
 							/>
 						</div>
 		

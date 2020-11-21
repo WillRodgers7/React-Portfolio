@@ -1,335 +1,179 @@
 import React from "react";
+import workDay from "../images/workDay copy.png";
+import codeQuiz from "../images/codeQuiz copy.png";
+import codeRefractor from "../images/codeRefractor copy.png";
+import passwordGenerator from "../images/passwordGenerator copy.png";
+import ultimatePubcrawl from "../images/ultimatePubcrawl copy.png";
+import readMe from "../images/readMe.jpeg";
+import noteTaker from "../images/Notes copy.jpeg";
+import mindful from "../images/mindful.jpeg";
+import budget from "../images/budget.jpeg";
 
 
 function Portfolio() {
 	return (
-		<div>
-	<div className="container">
-			<div className="card border-0 shadow my-5">
-				<div className="card-body p-5">
-					<!-- Headder -->
-					<header>Portfolio</header>
-					<br />
-					<hr />
-					<br />
-					{/* <!-- Start --> */}
-					<div className="container">
-						<div className="row">
-							<div className="col-sm-12 col-md-12 col-lg-4">
-								{/* <!-- Project 1  --> */}
-								<div className="card text-center" style= "width:auto 18rem";>
-									<div className="card-body">
-										<img
-											src="../Responsive-Portfolio/assets/pics/workDay.png"
-											width="100%"
-											height="100%"
-											alt="Birds in tree"
-											margin-right:
-											0px;
-											margin-bottom:
-											0px;
-										/>
+<div>
 
-										<a
-											href="https://willrodgers7.github.io/Day-Planner/"
-											className="btn btn-primary"
-											style="
-												background-color: #4aaaa5;
-												border-color: #4aaaa5;
-												border-left-width: 100%;
-												border-right-width: 100%;
-												border-left-width: 100%;
-												border-left-width: 75px;
-												margin-left: 0px;
-												border-right-width: 75px;
-												border-top-width: 0px;
-												border-bottom-width: 0px;
-											"
-											>Work Day</a
-										>
-									</div>
-								</div>
-								{/* <!-- Project 1  --> */}
-							</div>
-							<div className="col-sm-12 col-md-12 col-lg-4">
-								{/* <!-- Project 2  --> */}
-								<div className="card text-center" style="width:auto 18rem";>
-									<div className="card-body">
-										<img
-											src="../Responsive-Portfolio/assets/pics/codeQuiz.png"
-											width="100%"
-											height="100%"
-											alt="The World and a Book"
-											margin-right:
-											0px;
-											margin-bottom:
-											0px;
-										/>
-
-										<a
-											href="https://willrodgers7.github.io/Code-Quiz/"
-											className="btn btn-primary"
-											style="
-												background-color: #4aaaa5;
-												border-color: #4aaaa5;
-												border-left-width: 100%;
-												border-right-width: 100%;
-												border-left-width: 100%;
-												border-left-width: 75px;
-												margin-left: 0px;
-												border-right-width: 75px;
-												border-top-width: 0px;
-												border-bottom-width: 0px;
-											"
-											>Code Quiz</a
-										>
-									</div>
-								</div>
-								{/* <!-- Project 2  --> */}
-							</div>
-							<div className="col-sm-12 col-md-12 col-lg-4">
-								{/* <!-- Project 3  --> */}
-								<div className="card text-center" style="width:auto 18rem";>
-									<div className="card-body">
-										<img
-											src="../Responsive-Portfolio/assets/pics/codeRefractor.png"
-											width="100%"
-											height="100%"
-											alt="A Journel"
-											margin-right:
-											0px;
-											margin-bottom:
-											0px;
-										/>
-
-										<a
-											href="https://willrodgers7.github.io/Code-Refractor1/"
-											className="btn btn-primary"
-											style="
-												background-color: #4aaaa5;
-												border-color: #4aaaa5;
-												border-left-width: 100%;
-												border-right-width: 100%;
-												border-left-width: 100%;
-												border-left-width: 65px;
-												margin-left: 0px;
-												border-right-width: 65px;
-												border-top-width: 0px;
-												border-bottom-width: 0px;
-											"
-											>Code Refractor</a
-										>
-									</div>
-								</div>
-								{/* <!-- Project 3  --> */}
-								</div>
-							</div>
+			<div className="container">
+				<div className="card border-0 shadow my-5">
+					<div className="card-body p-5">
+						<header>Portfolio</header>
+						<br />
+						<hr />
+						<br />
+                                {/* Project 1 */}
+						<div className="container">
 							<div className="row">
 								<div className="col-sm-12 col-md-12 col-lg-4">
-									{/* <!-- Project 4  --> */}
-									<div className="card text-center" style="width:auto 18rem";>
+									<div className="card text-center">
 										<div className="card-body">
-											<img
-												src="../Responsive-Portfolio/assets/pics/passwordGenerator.png"
-												width="100%"
-												height="100%"
-												alt="Information Icon"
-												margin-right:
-												0px;
-												margin-bottom:
-												0px;
-											/>
+										<img className='workDay'src={workDay}  alt="Work Day Application"/>
 
-											<a
-												href="https://willrodgers7.github.io/Password-Generator/"
-												className="btn btn-primary"
-												style="
-													background-color: #4aaaa5;
-													border-color: #4aaaa5;
-													border-left-width: 100%;
-													border-right-width: 100%;
-													border-left-width: 100%;
-													border-left-width: 47px;
-													margin-left: 0px;
-													border-right-width: 47px;
-													border-top-width: 0px;
-													border-bottom-width: 0px;
-												"
-												>Password Generator</a
-											>
+											<a href="https://willrodgers7.github.io/Day-Planner/" className="Portbtn1">Work Day</a>
 										</div>
 									</div>
-									{/* <!-- Project 4  --> */}
 								</div>
+							</div>
+						</div>
+                                {/* Project 2 */}
+                        <div className="container">
+							<div className="row">
 								<div className="col-sm-12 col-md-12 col-lg-4">
-									{/* <!-- Project 5 --> */}
-									<div className="card text-center" style="width:auto 18rem";>
+									<div className="card text-center">
 										<div className="card-body">
-											<img
-												src="../Responsive-Portfolio/assets/pics/ultimatePubcrawl.png"
-												width="100%"
-												height="100%"
-												alt="A Cat catching a Bannana"
-												margin-right:
-												0px;
-												margin-bottom:
-												0px;
-											/>
+											<img className='codeQuiz'src={codeQuiz}  alt="Code Quiz Application"/>
 
-											<a
-												href="https://willrodgers7.github.io/Ultimate-Pub-Crawl/"
-												className="btn btn-primary"
-												style="
-													background-color: #4aaaa5;
-													border-color: #4aaaa5;
-													border-left-width: 100%;
-													border-right-width: 100%;
-													border-left-width: 100%;
-													border-left-width: 51px;
-													margin-left: 0px;
-													border-right-width: 51px;
-													border-top-width: 0px;
-													border-bottom-width: 0px;
-												"
-												>Ultimate Pub Crawl</a
-											>
+											<a href="https://willrodgers7.github.io/Code-Quiz/" className="Portbtn1">Code Quiz</a>
 										</div>
 									</div>
-									{/* <!-- Project 5  --> */}
-
-									{/* <!-- Project 6  --> */}
-									<div className="card text-center" style="width:auto 18rem";>
-										<div className="card-body">
-											<img
-												src="./assets/Images/readMe.jpg"
-												width="100%"
-												height="100%"
-												alt="Birds in tree"
-												margin-right:
-												0px;
-												margin-bottom:
-												0px;
-											/>
-
-											<a
-												href="https://willrodgers7.github.io/ReadMe-Generator/"
-												className="btn btn-primary"
-												style="
-													background-color: #4aaaa5;
-													border-color: #4aaaa5;
-													border-left-width: 100%;
-													border-right-width: 100%;
-													border-left-width: 100%;
-													border-left-width: 50px;
-													margin-left: 0px;
-													border-right-width: 50px;
-													border-top-width: 0px;
-													border-bottom-width: 0px;
-												"
-												>Read Me Generator</a
-											>
-										</div>
-									</div>
-									{/* <!-- Project 6  --> */}
-									</div>
-									<div className="col-sm-12 col-md-12 col-lg-4">
-
-									{/* <!-- Project 7  --> */}
-									<div className="card text-center" style="width:auto 18rem";>
-										<div className="card-body">
-											<img
-												src="./assets/Images/Notes.jpg"
-												width="100%"
-												height="100%"
-												alt="The World and a Book"
-												margin-right:
-												0px;
-												margin-bottom:
-												0px;
-											/>
-
-											<a
-												href="https://github.com/WillRodgers7/Note-Taker"
-												className="btn btn-primary"
-												style="
-													background-color: #4aaaa5;
-													border-color: #4aaaa5;
-													border-left-width: 100%;
-													border-right-width: 100%;
-													border-left-width: 100%;
-													border-left-width: 75px;
-													margin-left: 0px;
-													border-right-width: 75px;
-													border-top-width: 0px;
-													border-bottom-width: 0px;
-												"
-												>Note Taker</a
-											>
-										</div>
-									</div>
-									{/* <!-- Project 7  --> */}
-
-									{/* <!-- Project 8  --> */}
-									<div className="card text-center" style="width:fit-content 18rem";>
-										<div className="card-body">
-											<img
-												src="./assets/Images/mindful.jpg"
-												width="100%"
-												height="100%"
-												alt="Birds in tree"
-												margin-right:
-												0px;
-												margin-bottom:
-												0px;
-											/>
-
-											<a
-												href="https://lit-depths-25209.herokuapp.com/index"
-												className="btn btn-primary"
-												style="
-													background-color: #4aaaa5;
-													border-color: #4aaaa5;
-													border-left-width: 100%;
-													border-right-width: 100%;
-													border-left-width: 100%;
-													border-left-width: 100px;
-													margin-left: 0px;
-													border-right-width: 90px;
-													border-top-width: 0px;
-													border-bottom-width: 0px;
-												"
-												>Mindful</a
-											>
-										</div>
-									</div>
-									{/* <!-- Project 8  --> */}
-									</div>
-									<div className="col-sm-12 col-md-12 col-lg-4">
-								
-
-
-
-
-
 								</div>
-								<div className="col-sm-12 col-md-12 col-lg-4"></div>
+							</div>
+						</div>
+                                {/* Project 3 */}
+                        <div className="container">
+							<div className="row">
+								<div className="col-sm-12 col-md-12 col-lg-4">
+									<div className="card text-center">
+										<div className="card-body">
+											
+											<img className='codeRefractor'src={codeRefractor}  alt="Code Refractor Application"/>
+
+											<a href="https://willrodgers7.github.io/Code-Refractor1/" className="Portbtn1">Code Refractor</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                                {/* Project 4 */}
+                        <div className="container">
+							<div className="row">
+								<div className="col-sm-12 col-md-12 col-lg-4">
+									<div className="card text-center">
+										<div className="card-body">
+											<img className='passwordGenerator'src={passwordGenerator}  alt="Password Generator Application"/>
+
+											<a href="https://willrodgers7.github.io/Password-Generator/" className="Portbtn1">Password Generator</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                                {/* Project 5 */}
+                        <div className="container">
+							<div className="row">
+								<div className="col-sm-12 col-md-12 col-lg-4">
+									<div className="card text-center">
+										<div className="card-body">
+										<img className='ultimatePubcrawl'src={ultimatePubcrawl}  alt="Pub Crawl Application"/>
+
+											<a href="https://willrodgers7.github.io/Ultimate-Pub-Crawl/" className="Portbtn1">Ultimate Pub Crawl</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                                {/* Project 6 */}
+                        <div className="container">
+							<div className="row">
+								<div className="col-sm-12 col-md-12 col-lg-4">
+									<div className="card text-center">
+										<div className="card-body">
+										<img className='readMe'src={readMe}  alt="Read Me Generator"/>
+											
+
+											<a href="https://willrodgers7.github.io/ReadMe-Generator/" className="Portbtn1">Read Me Generator</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                                {/* Project  7*/}
+                                <div className="container">
+							<div className="row">
+								<div className="col-sm-12 col-md-12 col-lg-4">
+									<div className="card text-center">
+										<div className="card-body">
+										<img className='noteTaker'src={noteTaker}  alt="Note Taker Application"/>
+
+											<a href="https://github.com/WillRodgers7/Note-Taker" className="Portbtn1">Note Taker</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                                                        {/* Project 8 */}
+                                                        <div className="container">
+							<div className="row">
+								<div className="col-sm-12 col-md-12 col-lg-4">
+									<div className="card text-center">
+										<div className="card-body">
+											<img className ="cardone"/>
+											<img className='mindful'src={mindful}  alt="Mindful Application"/>
+
+											<a href="https://lit-depths-25209.herokuapp.com/index" className="Portbtn1">Mindful</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                                                        {/* Project 9 */}
+                                                        <div className="container">
+							<div className="row">
+								<div className="col-sm-12 col-md-12 col-lg-4">
+									<div className="card text-center">
+										<div className="card-body">
+										<img className='budget'src={budget}  alt="Code Refractor Application"/>
+
+											<a href="https://mighty-mountain-68135.herokuapp.com/" className="Portbtn1">Progressive Budget</a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 
-						<!-- test -->
-						<div style="height: 100;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 					</div>
 				</div>
 			</div>
-		</div>
 
-		// <!-- Footer -->
-		<footer className="footer">
-			&copy;copywright
-		</footer>
+			<footer className="footer">&copy;copywright</footer>
 </div>
-);
+	);
 }
-
-
 export default Portfolio;
