@@ -1,13 +1,13 @@
 import React from "react";
-import workDay from "../images/workDay copy.png";
-import codeQuiz from "../images/codeQuiz copy.png";
-import codeRefractor from "../images/codeRefractor copy.png";
-import passwordGenerator from "../images/passwordGenerator copy.png";
-import ultimatePubcrawl from "../images/ultimatePubcrawl copy.png";
-import readMe from "../images/readMe.jpeg";
-import noteTaker from "../images/Notes copy.jpeg";
-import mindful from "../images/mindful.jpeg";
-import budget from "../images/budget.jpeg";
+import workDay from "./images/workDay copy.png";
+import codeQuiz from "./images/codeQuiz copy.png";
+import codeRefractor from "./images/codeRefractor copy.png";
+import passwordGenerator from "./images/passwordGenerator copy.png";
+import ultimatePubcrawl from "./images/ultimatePubcrawl copy.png";
+import readMe from "./images/readMe.jpeg";
+import noteTaker from "./images/Notes copy.jpeg";
+import mindful from "./images/mindful.jpeg";
+import budget from "./images/budget.jpeg";
 
 
 function Portfolio() {
