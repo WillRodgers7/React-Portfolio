@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio",
+  "homepage": "https://willrodgers7.github.io/React-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +16,6 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "homepage": "willrodgers7.github.io/React-Portfolio",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
