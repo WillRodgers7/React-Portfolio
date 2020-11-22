@@ -1,11 +1,11 @@
 import logo from './logo.svg';
-import '/App.css';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "/components/Navbar";
-import Wrapper from "/components/Wrapper";
-import About from "/pages/About";
-import Contact from "/pages/Contact";
-import Portfolio from "/pages/Portfolio";
+import Navbar from "./components/Navbar";
+import Wrapper from "./components/Wrapper";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
