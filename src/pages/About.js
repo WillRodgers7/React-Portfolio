@@ -1,5 +1,5 @@
 import React from "react";
-import will from "./images/Willy.jpeg";
+import will from "../images/Willy.jpeg";
 
 function About() {
 	return (
